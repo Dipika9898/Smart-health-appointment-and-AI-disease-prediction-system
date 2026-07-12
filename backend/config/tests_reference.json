@@ -1,0 +1,64 @@
+{
+  "Hemoglobin": {"type":"range","min":13,"max":17,"unit":"g/dL","doctor":"General Physician"},
+  "RBC": {"type":"range","min":4.5,"max":5.9,"unit":"million/cmm","doctor":"General Physician"},
+  "WBC": {"type":"range","min":4000,"max":11000,"unit":"cells/mcL","doctor":"General Physician"},
+  "Platelet Count": {"type":"range","min":150000,"max":450000,"unit":"cells/mcL","doctor":"General Physician"},
+  "ESR": {"type":"range","min":0,"max":20,"unit":"mm/hr","doctor":"General Physician"},
+  "PCV": {"type":"range","min":40,"max":50,"unit":"%","doctor":"General Physician"},
+  "MCV": {"type":"range","min":80,"max":100,"unit":"fL","doctor":"General Physician"},
+  "MCH": {"type":"range","min":27,"max":33,"unit":"pg","doctor":"General Physician"},
+  "MCHC": {"type":"range","min":32,"max":36,"unit":"g/dL","doctor":"General Physician"},
+  "RDW": {"type":"range","min":11.5,"max":14.5,"unit":"%","doctor":"General Physician"},
+  "Neutrophils": {"type":"range","min":40,"max":70,"unit":"%","doctor":"General Physician"},
+  "Lymphocytes": {"type":"range","min":20,"max":40,"unit":"%","doctor":"General Physician"},
+  "Monocytes": {"type":"range","min":2,"max":8,"unit":"%","doctor":"General Physician"},
+  "Eosinophils": {"type":"range","min":1,"max":4,"unit":"%","doctor":"General Physician"},
+  "Basophils": {"type":"range","min":0,"max":1,"unit":"%","doctor":"General Physician"},
+
+  "Blood Sugar Fasting": {"type":"range","min":70,"max":100,"unit":"mg/dL","doctor":"Endocrinologist"},
+  "Blood Sugar PP": {"type":"range","min":70,"max":140,"unit":"mg/dL","doctor":"Endocrinologist"},
+  "Random Blood Sugar": {"type":"range","min":70,"max":140,"unit":"mg/dL","doctor":"Endocrinologist"},
+  "HbA1c": {"type":"range","min":4,"max":5.6,"unit":"%","doctor":"Endocrinologist"},
+  "Insulin": {"type":"range","min":2,"max":25,"unit":"µIU/mL","doctor":"Endocrinologist"},
+
+  "TSH": {"type":"range","min":0.4,"max":4.0,"unit":"µIU/mL","doctor":"Endocrinologist"},
+  "T3": {"type":"range","min":80,"max":200,"unit":"ng/dL","doctor":"Endocrinologist"},
+  "T4": {"type":"range","min":5,"max":12,"unit":"µg/dL","doctor":"Endocrinologist"},
+
+  "Creatinine": {"type":"range","min":0.7,"max":1.3,"unit":"mg/dL","doctor":"Nephrologist"},
+  "Urea": {"type":"range","min":7,"max":20,"unit":"mg/dL","doctor":"Nephrologist"},
+  "Uric Acid": {"type":"range","min":3.5,"max":7.2,"unit":"mg/dL","doctor":"Nephrologist"},
+  "Sodium": {"type":"range","min":135,"max":145,"unit":"mmol/L","doctor":"Nephrologist"},
+  "Potassium": {"type":"range","min":3.5,"max":5.0,"unit":"mmol/L","doctor":"Nephrologist"},
+
+  "Total Cholesterol": {"type":"range","min":0,"max":200,"unit":"mg/dL","doctor":"Cardiologist"},
+  "HDL": {"type":"range","min":40,"max":100,"unit":"mg/dL","doctor":"Cardiologist"},
+  "LDL": {"type":"range","min":0,"max":130,"unit":"mg/dL","doctor":"Cardiologist"},
+  "Triglycerides": {"type":"range","min":0,"max":150,"unit":"mg/dL","doctor":"Cardiologist"},
+  "VLDL": {"type":"range","min":5,"max":40,"unit":"mg/dL","doctor":"Cardiologist"},
+
+  "Bilirubin Total": {"type":"range","min":0.2,"max":1.2,"unit":"mg/dL","doctor":"Gastroenterologist"},
+  "Bilirubin Direct": {"type":"range","min":0,"max":0.3,"unit":"mg/dL","doctor":"Gastroenterologist"},
+  "ALT": {"type":"range","min":7,"max":56,"unit":"U/L","doctor":"Gastroenterologist"},
+  "AST": {"type":"range","min":10,"max":40,"unit":"U/L","doctor":"Gastroenterologist"},
+  "Alkaline Phosphatase": {"type":"range","min":44,"max":147,"unit":"U/L","doctor":"Gastroenterologist"},
+  "Albumin": {"type":"range","min":3.5,"max":5.5,"unit":"g/dL","doctor":"Gastroenterologist"},
+  "Total Protein": {"type":"range","min":6.0,"max":8.3,"unit":"g/dL","doctor":"Gastroenterologist"},
+
+  "Calcium": {"type":"range","min":8.5,"max":10.5,"unit":"mg/dL","doctor":"Orthopedic"},
+  "Phosphorus": {"type":"range","min":2.5,"max":4.5,"unit":"mg/dL","doctor":"Orthopedic"},
+  "Vitamin D": {"type":"range","min":20,"max":50,"unit":"ng/mL","doctor":"Orthopedic"},
+
+  "Vitamin B12": {"type":"range","min":200,"max":900,"unit":"pg/mL","doctor":"Neurologist"},
+  "Iron": {"type":"range","min":60,"max":170,"unit":"µg/dL","doctor":"General Physician"},
+
+  "PSA": {"type":"range","min":0,"max":4,"unit":"ng/mL","doctor":"Urologist"},
+
+  "Urine Protein": {"type":"positive_negative","normal":"Negative","doctor":"Nephrologist"},
+  "Urine Glucose": {"type":"positive_negative","normal":"Negative","doctor":"Endocrinologist"},
+  "Urine Ketones": {"type":"positive_negative","normal":"Negative","doctor":"Endocrinologist"},
+  "Urine Blood": {"type":"positive_negative","normal":"Negative","doctor":"Nephrologist"},
+  "Urine pH": {"type":"range","min":4.5,"max":8,"unit":"","doctor":"Nephrologist"},
+
+  "Stool Occult Blood": {"type":"positive_negative","normal":"Negative","doctor":"Gastroenterologist"}
+}

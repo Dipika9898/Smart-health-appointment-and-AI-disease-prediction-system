@@ -7,9 +7,11 @@ import about_image from './about_image.png'
 import chatbot_icon from './chatbot_icon.png'
 import chatbot_icon1 from './chatbot_icon1.png'
 import logo from './logo.png'
+import logointitle1 from './logointitle1.png'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
+import paperclip from './paperclip.png'
 import chats_icon from './chats_icon.svg'
 import verified_icon from './verified_icon.svg'
 import arrow_icon from './arrow_icon.svg'
@@ -54,14 +56,16 @@ import gynecologist from './gynecologist.png'
 import nephrologist from './nephrologist.png'
 import neurologist from './neurologist.png'
 import opthalmologist from './opthalmologist.png'
-import pediatricians from './pediatricians.png'
+import pediatrician from './pediatrician.png'
 import pulmonologist from './pulmonologist.png'
 export const assets = {
     appointment_img,
     header_img,
     group_profiles,
     logo,
+    logointitle1,
     chats_icon,
+    paperclip,
     verified_icon,
     info_icon,
     profile_pic,
@@ -112,7 +116,7 @@ export const specialityData = [
         image: gynecologist
     },
     {
-        speciality: 'Nephrologistt',
+        speciality: 'Nephrologist',
         image: nephrologist
     },
     {
@@ -124,12 +128,12 @@ export const specialityData = [
         image: opthalmologist
     },
     {
-        speciality: 'Pediatricians',
-        image: pediatricians
+        speciality: 'Pediatrician',
+        image: pediatrician
     },
     
     {
-        speciality: 'Pulmonologistt',
+        speciality: 'Pulmonologist',
         image: pulmonologist
     },
 ]
@@ -293,7 +297,7 @@ export const doctors = [
         _id: 'pediadoctor1',
         name: 'Dr. Sushil Bhandari',
         image: pediadoctor1,
-        speciality: 'Pediatricians',
+        speciality: 'Pediatrician',
         degree: 'MBBS',
         experience: '6 Years',
         about: 'Dr. Sushil Bhandari is a pediatrician who provides medical care for infants, children, and adolescents. He focuses on preventive care, early diagnosis, and proper treatment to support healthy growth and development. Dr. Bhandari works closely with parents to ensure safe and effective care for children.',
@@ -475,7 +479,7 @@ export const doctors = [
         _id: 'pediadoctor2',
         name: 'Dr. Vidhata Bhandari',
         image: pediadoctor2,
-        speciality: 'Pediatricians',
+        speciality: 'Pediatrician',
         degree: 'MBBS',
         experience: '5 Years',
         about: 'Dr. Vidhata Bhandari is a pediatrician who provides medical care for infants, children, and adolescents. She focuses on preventive care, early diagnosis, and proper treatment to support healthy growth and development. Dr. Bhandari works closely with parents to ensure safe and effective care for children.',
